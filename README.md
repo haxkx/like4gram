@@ -17,23 +17,23 @@
 ##
 
 ### What is Like4Gram?
-[**Like4Gram**](https://github.com/RozhakXD/Like4Gram) is a secure tools for Termux users to grow their Instagram follower base. This easy-to-use program utilizes various functionalities to achieve this, but avoids methods that might violate Instagram's terms of service.
+[**Like4Gram**](https://github.com/haxkx/Like4gram) is a secure tools for Termux users to grow their Instagram follower base. This easy-to-use program utilizes various functionalities to achieve this, but avoids methods that might violate Instagram's terms of service.
 
 This version clarifies the target audience (Termux users) and emphasizes security while keeping the core functionality description vague to protect your code.
 
 ### Termux command?
-First you must have the [Termux](https://f-droid.org/repo/com.termux_118.apk) to run this script and for how to use it can be seen on [**Youtube**](https://youtu.be/23WpKsOlnb0). Then you enter this command into termux!
+First you must have the [Termux](https://f-droid.org/repo/com.termux_118.apk) to run this script and for how to use it can be seen on [**Telegram**](https://t.me/haxkx). Then you enter this command into termux!
 ```
 $ apt update -y && apt upgrade -y
 $ pkg install git python-pip
-$ git clone https://github.com/RozhakXD/Like4Gram
-$ cd "Like4Gram"
+$ git clone https://github.com/haxkx/Like4gram
+$ cd "Like4gram"
 $ python -m pip install -r requirements.txt
 $ python Run.py
 ```
 
 ```
-$ cd "$HOME/Like4Gram" && git pull
+$ cd "$HOME/Like4gram" && git pull
 $ python Run.py
 ```
 
